@@ -23,6 +23,7 @@ public class sortHashMap {
 		map.put('c', 5);
 		map.put('b', 2);
 		map.put('m', 1);
+		map.getOrDefault(map, 0);
 		System.out.println("Original:::::::::");
 		map.forEach((k,v)->System.out.println(k+"\t"+v));
 		List<Entry<Character,Integer>> list= new ArrayList<>(map.entrySet());
